@@ -21,11 +21,11 @@ To run this operating system, you need to install the required packages:
 * libmpc
 * gcc
 
-Then build binutils and cross-compiler, you can use ![this link](https://wiki.osdev.org/GCC_Cross-Compiler)
+Then build binutils and cross-compiler, you can use [this link](https://wiki.osdev.org/GCC_Cross-Compiler)
 
 Change the path to gcc and gdb in the Makefile if your cross compiler is not in `/usr/local/`
 
 ## References:
-![os-tutorial](https://github.com/cfenollosa/os-tutorial)
+[os-tutorial](https://github.com/cfenollosa/os-tutorial)
 
-![OSDev.org](https://wiki.osdev.org/Main_Page)
+[OSDev.org](https://wiki.osdev.org/Main_Page)
