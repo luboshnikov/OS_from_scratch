@@ -4,8 +4,9 @@ HEADERS = $(wildcard kernel/*.h drivers/*.h cpu/*.h libc/*.h)
 # create source file names into object filenames
 OBJ = ${C_SOURCES:.c=.o cpu/interrupt.o}
 
-CC = /home/luboshnikov/i386elfgcc/bin/i386-elf-gcc
-GDB = /home/luboshnikov/i386elfgcc/bin/i386-elf-gdb
+# Change this if your cross-compiler is somewhere else
+CC = /usr/local/i386elfgcc/bin/i386-elf-gcc
+GDB = /usr/local/i386elfgcc/bin/i386-elf-gdb
 # -g: Use debugging symbols in gcc
 CFLAGS = -g -ffreestanding -Wall -Wextra -fno-exceptions -m32
 
